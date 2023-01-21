@@ -29,6 +29,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  shared_preferences: ^2.0.15
   flutter:
     sdk: flutter
 
@@ -53,6 +54,11 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/images/bottle.png
+    - assets/images/doubleBottle.png
+    - assets/images/BottlewithPoump.png
+    - assets/images/title_woda.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -60,9 +66,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+
+#     - images/a_dot_burr.jpeg
+#     - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
